@@ -1,0 +1,179 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["ScrollingFrame_2"] = Instance.new("ScrollingFrame", LMG2L["ScreenGui_1"]);
+LMG2L["ScrollingFrame_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ScrollingFrame_2"]["Size"] = UDim2.new(0.20741, 0, 0.375, 0);
+LMG2L["ScrollingFrame_2"]["ScrollBarImageColor3"] = Color3.fromRGB(219, 219, 219);
+LMG2L["ScrollingFrame_2"]["Position"] = UDim2.new(0.2963, 0, 0.13298, 0);
+
+
+LMG2L["ImageLabel_3"] = Instance.new("ImageLabel", LMG2L["ScrollingFrame_2"]);
+LMG2L["ImageLabel_3"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- LMG2L["ImageLabel_3"]["ImageContent"] = ;
+LMG2L["ImageLabel_3"]["Image"] = [[rbxassetid://12600860108]];
+LMG2L["ImageLabel_3"]["Size"] = UDim2.new(0, 344, 0, 308);
+LMG2L["ImageLabel_3"]["Position"] = UDim2.new(-0.27679, 0, -0.02837, 0);
+
+
+LMG2L["TextButton4_4"] = Instance.new("TextButton", LMG2L["ImageLabel_3"]);
+LMG2L["TextButton4_4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton4_4"]["Size"] = UDim2.new(0.31395, 0, 0.11688, 0);
+LMG2L["TextButton4_4"]["Text"] = [[skybox]];
+LMG2L["TextButton4_4"]["Name"] = [[TextButton4]];
+LMG2L["TextButton4_4"]["Position"] = UDim2.new(0.3343, 0, 0.98052, 0);
+
+
+LMG2L["LocalScript_5"] = Instance.new("LocalScript", LMG2L["TextButton4_4"]);
+
+
+
+LMG2L["TextButton2_6"] = Instance.new("TextButton", LMG2L["ImageLabel_3"]);
+LMG2L["TextButton2_6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_6"]["Size"] = UDim2.new(0.31395, 0, 0.11688, 0);
+LMG2L["TextButton2_6"]["Text"] = [[music]];
+LMG2L["TextButton2_6"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_6"]["Position"] = UDim2.new(0.3343, 0, 0.63636, 0);
+
+
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["TextButton2_6"]);
+
+
+
+LMG2L["TextButton3_8"] = Instance.new("TextButton", LMG2L["ImageLabel_3"]);
+LMG2L["TextButton3_8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton3_8"]["Size"] = UDim2.new(0.31395, 0, 0.11688, 0);
+LMG2L["TextButton3_8"]["Text"] = [[particles]];
+LMG2L["TextButton3_8"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_8"]["Position"] = UDim2.new(0.3343, 0, 0.81169, 0);
+
+
+LMG2L["LocalScript_9"] = Instance.new("LocalScript", LMG2L["TextButton3_8"]);
+
+
+
+LMG2L["TextLabel_a"] = Instance.new("TextLabel", LMG2L["ImageLabel_3"]);
+LMG2L["TextLabel_a"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_a"]["BackgroundTransparency"] = 1;
+LMG2L["TextLabel_a"]["Size"] = UDim2.new(0.65116, 0, 0.09091, 0);
+LMG2L["TextLabel_a"]["Text"] = [[g00byd0lan hack gui]];
+LMG2L["TextLabel_a"]["Position"] = UDim2.new(0.18023, 0, 0.02597, 0);
+
+
+LMG2L["TextButton_b"] = Instance.new("TextButton", LMG2L["ImageLabel_3"]);
+LMG2L["TextButton_b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_b"]["Size"] = UDim2.new(0.31395, 0, 0.11688, 0);
+LMG2L["TextButton_b"]["Text"] = [[decal spam]];
+LMG2L["TextButton_b"]["Position"] = UDim2.new(0.3343, 0, 0.46753, 0);
+
+
+LMG2L["LocalScript_c"] = Instance.new("LocalScript", LMG2L["TextButton_b"]);
+
+
+
+local function C_5()
+	local script = LMG2L["LocalScript_5"];
+	function click()	
+	    s = Instance.new("Sky")	
+	    s.Name = "Sky"	
+	    s.Parent = game.Lighting	
+	    s.SkyboxBk = "http://www.roblox.com/asset/?id=12600860108"	
+	    s.SkyboxDn = "http://www.roblox.com/asset/?id=12600860108"	
+	    s.SkyboxFt = "http://www.roblox.com/asset/?id=12600860108"	
+	    s.SkyboxLf = "http://www.roblox.com/asset/?id=12600860108"	
+	    s.SkyboxRt = "http://www.roblox.com/asset/?id=12600860108"	
+	    s.SkyboxUp = "http://www.roblox.com/asset/?id=12600860108"	
+	    game.Lighting.TimeOfDay = 12	
+	end	
+	 	
+	script.Parent.MouseButton1Down:connect(click)	
+end;
+task.spawn(C_5);
+local function C_7()
+	local script = LMG2L["LocalScript_7"];
+	function onClick()	
+	    Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://1847661821" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()	
+	end	
+	 	
+	script.Parent.MouseButton1Down:connect(onClick)	
+end;
+task.spawn(C_7);
+local function C_9()
+	local script = LMG2L["LocalScript_9"];
+	script.Parent.MouseButton1Click:Connect(function()	
+	    for i, v in pairs(game.Players:GetChildren()) do	
+	        emit = Instance.new("ParticleEmitter")	
+	        emit.Parent = v.Character.Head	
+	        emit.Texture = "http://www.roblox.com/asset/?id=12600860108"	
+	        emit.VelocitySpread = 100000	
+	    end	
+	end)	
+end;
+task.spawn(C_9);
+local function C_c()
+	local script = LMG2L["LocalScript_c"];
+	function click()	
+	    function exPro(root)	
+	        for _, v in pairs(root:GetChildren()) do	
+	            if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=158118263" then	
+	                v.Parent = nil	
+	            elseif v:IsA("BasePart") then	
+	                v.Material = "Plastic"	
+	                v.Transparency = 0	
+	                local One = Instance.new("Decal", v)	
+	                local Two = Instance.new("Decal", v)	
+	                local Three = Instance.new("Decal", v)	
+	                local Four = Instance.new("Decal", v)	
+	                local Five = Instance.new("Decal", v)	
+	                local Six = Instance.new("Decal", v)	
+	                One.Texture = "http://www.roblox.com/asset/?id=158118263"	
+	                Two.Texture = "http://www.roblox.com/asset/?id=158118263"	
+	                Three.Texture = "http://www.roblox.com/asset/?id=158118263"	
+	                Four.Texture = "http://www.roblox.com/asset/?id=158118263"	
+	                Five.Texture = "http://www.roblox.com/asset/?id=158118263"	
+	                Six.Texture = "http://www.roblox.com/asset/?id=158118263"	
+	                One.Face = "Front"	
+	                Two.Face = "Back"	
+	                Three.Face = "Right"	
+	                Four.Face = "Left"	
+	                Five.Face = "Top"	
+	                Six.Face = "Bottom"	
+	            end	
+	            exPro(v)	
+	        end	
+	    end	
+	    function asdf(root)	
+	        for _, v in pairs(root:GetChildren()) do	
+	            asdf(v)	
+	        end	
+	    end	
+	    exPro(game.Workspace)	
+	    asdf(game.Workspace)	
+	end	
+	
+	script.Parent.MouseButton1Down:connect(click)	
+end;
+task.spawn(C_c);
+
+-- drag gui
+LMG2L["ScrollingFrame_2"].Archivable = true
+LMG2L["ScrollingFrame_2"].Active = true
+LMG2L["ScrollingFrame_2"].Draggable = true
+
+return LMG2L["ScreenGui_1"], require;
