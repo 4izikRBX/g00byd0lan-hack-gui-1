@@ -16,79 +16,95 @@ LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
 
 LMG2L["ScrollingFrame_2"] = Instance.new("ScrollingFrame", LMG2L["ScreenGui_1"]);
+LMG2L["ScrollingFrame_2"]["Active"] = true;
 LMG2L["ScrollingFrame_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["ScrollingFrame_2"]["Size"] = UDim2.new(0.20741, 0, 0.375, 0);
+LMG2L["ScrollingFrame_2"]["Size"] = UDim2.new(0, 224, 0, 282);
 LMG2L["ScrollingFrame_2"]["ScrollBarImageColor3"] = Color3.fromRGB(219, 219, 219);
-LMG2L["ScrollingFrame_2"]["Position"] = UDim2.new(0.2963, 0, 0.13298, 0);
+LMG2L["ScrollingFrame_2"]["Position"] = UDim2.new(0, 320, 0, 100);
 
 
-LMG2L["ImageLabel_3"] = Instance.new("ImageLabel", LMG2L["ScrollingFrame_2"]);
-LMG2L["ImageLabel_3"]["BorderSizePixel"] = 0;
-LMG2L["ImageLabel_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
--- LMG2L["ImageLabel_3"]["ImageContent"] = ;
-LMG2L["ImageLabel_3"]["Image"] = [[rbxassetid://12600860108]];
-LMG2L["ImageLabel_3"]["Size"] = UDim2.new(0, 344, 0, 308);
-LMG2L["ImageLabel_3"]["Position"] = UDim2.new(-0.27679, 0, -0.02837, 0);
+LMG2L["drag gui 1_3"] = Instance.new("LocalScript", LMG2L["ScrollingFrame_2"]);
+LMG2L["drag gui 1_3"]["Name"] = [[drag gui 1]];
 
 
-LMG2L["TextButton4_4"] = Instance.new("TextButton", LMG2L["ImageLabel_3"]);
-LMG2L["TextButton4_4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["TextButton4_4"]["Size"] = UDim2.new(0.31395, 0, 0.11688, 0);
-LMG2L["TextButton4_4"]["Text"] = [[skybox]];
-LMG2L["TextButton4_4"]["Name"] = [[TextButton4]];
-LMG2L["TextButton4_4"]["Position"] = UDim2.new(0.3343, 0, 0.98052, 0);
+LMG2L["ImageLabel_4"] = Instance.new("ImageLabel", LMG2L["ScrollingFrame_2"]);
+LMG2L["ImageLabel_4"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- LMG2L["ImageLabel_4"]["ImageContent"] = ;
+LMG2L["ImageLabel_4"]["Image"] = [[rbxassetid://12600860108]];
+LMG2L["ImageLabel_4"]["Size"] = UDim2.new(0, 344, 0, 308);
+LMG2L["ImageLabel_4"]["Position"] = UDim2.new(0, -62, 0, -8);
 
 
-LMG2L["LocalScript_5"] = Instance.new("LocalScript", LMG2L["TextButton4_4"]);
+LMG2L["TextButton4_5"] = Instance.new("TextButton", LMG2L["ImageLabel_4"]);
+LMG2L["TextButton4_5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton4_5"]["Size"] = UDim2.new(0, 108, 0, 36);
+LMG2L["TextButton4_5"]["Text"] = [[skybox]];
+LMG2L["TextButton4_5"]["Name"] = [[TextButton4]];
+LMG2L["TextButton4_5"]["Position"] = UDim2.new(0, 115, 0, 302);
 
 
-
-LMG2L["TextButton2_6"] = Instance.new("TextButton", LMG2L["ImageLabel_3"]);
-LMG2L["TextButton2_6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["TextButton2_6"]["Size"] = UDim2.new(0.31395, 0, 0.11688, 0);
-LMG2L["TextButton2_6"]["Text"] = [[music]];
-LMG2L["TextButton2_6"]["Name"] = [[TextButton2]];
-LMG2L["TextButton2_6"]["Position"] = UDim2.new(0.3343, 0, 0.63636, 0);
-
-
-LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["TextButton2_6"]);
+LMG2L["LocalScript_6"] = Instance.new("LocalScript", LMG2L["TextButton4_5"]);
 
 
 
-LMG2L["TextButton3_8"] = Instance.new("TextButton", LMG2L["ImageLabel_3"]);
-LMG2L["TextButton3_8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["TextButton3_8"]["Size"] = UDim2.new(0.31395, 0, 0.11688, 0);
-LMG2L["TextButton3_8"]["Text"] = [[particles]];
-LMG2L["TextButton3_8"]["Name"] = [[TextButton3]];
-LMG2L["TextButton3_8"]["Position"] = UDim2.new(0.3343, 0, 0.81169, 0);
+LMG2L["TextButton2_7"] = Instance.new("TextButton", LMG2L["ImageLabel_4"]);
+LMG2L["TextButton2_7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_7"]["Size"] = UDim2.new(0, 108, 0, 36);
+LMG2L["TextButton2_7"]["Text"] = [[music]];
+LMG2L["TextButton2_7"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_7"]["Position"] = UDim2.new(0, 115, 0, 196);
 
 
-LMG2L["LocalScript_9"] = Instance.new("LocalScript", LMG2L["TextButton3_8"]);
-
-
-
-LMG2L["TextLabel_a"] = Instance.new("TextLabel", LMG2L["ImageLabel_3"]);
-LMG2L["TextLabel_a"]["BorderSizePixel"] = 0;
-LMG2L["TextLabel_a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["TextLabel_a"]["BackgroundTransparency"] = 1;
-LMG2L["TextLabel_a"]["Size"] = UDim2.new(0.65116, 0, 0.09091, 0);
-LMG2L["TextLabel_a"]["Text"] = [[g00byd0lan hack gui]];
-LMG2L["TextLabel_a"]["Position"] = UDim2.new(0.18023, 0, 0.02597, 0);
-
-
-LMG2L["TextButton_b"] = Instance.new("TextButton", LMG2L["ImageLabel_3"]);
-LMG2L["TextButton_b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["TextButton_b"]["Size"] = UDim2.new(0.31395, 0, 0.11688, 0);
-LMG2L["TextButton_b"]["Text"] = [[decal spam]];
-LMG2L["TextButton_b"]["Position"] = UDim2.new(0.3343, 0, 0.46753, 0);
-
-
-LMG2L["LocalScript_c"] = Instance.new("LocalScript", LMG2L["TextButton_b"]);
+LMG2L["LocalScript_8"] = Instance.new("LocalScript", LMG2L["TextButton2_7"]);
 
 
 
-local function C_5()
-	local script = LMG2L["LocalScript_5"];
+LMG2L["TextButton3_9"] = Instance.new("TextButton", LMG2L["ImageLabel_4"]);
+LMG2L["TextButton3_9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton3_9"]["Size"] = UDim2.new(0, 108, 0, 36);
+LMG2L["TextButton3_9"]["Text"] = [[particles]];
+LMG2L["TextButton3_9"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_9"]["Position"] = UDim2.new(0, 115, 0, 250);
+
+
+LMG2L["LocalScript_a"] = Instance.new("LocalScript", LMG2L["TextButton3_9"]);
+
+
+
+LMG2L["TextLabel_b"] = Instance.new("TextLabel", LMG2L["ImageLabel_4"]);
+LMG2L["TextLabel_b"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_b"]["BackgroundTransparency"] = 1;
+LMG2L["TextLabel_b"]["Size"] = UDim2.new(0, 224, 0, 28);
+LMG2L["TextLabel_b"]["Text"] = [[g00byd0lan hack gui]];
+LMG2L["TextLabel_b"]["Position"] = UDim2.new(0, 62, 0, 8);
+
+
+LMG2L["TextButton_c"] = Instance.new("TextButton", LMG2L["ImageLabel_4"]);
+LMG2L["TextButton_c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_c"]["Size"] = UDim2.new(0, 108, 0, 36);
+LMG2L["TextButton_c"]["Text"] = [[decal spam]];
+LMG2L["TextButton_c"]["Position"] = UDim2.new(0, 115, 0, 144);
+
+
+LMG2L["LocalScript_d"] = Instance.new("LocalScript", LMG2L["TextButton_c"]);
+
+
+
+LMG2L["drag gui 2_e"] = Instance.new("LocalScript", LMG2L["ScrollingFrame_2"]);
+LMG2L["drag gui 2_e"]["Name"] = [[drag gui 2]];
+
+
+local function C_3()
+	local script = LMG2L["drag gui 1_3"];
+	script.Parent.Archivable = true		
+	script.Parent.Active = true		
+	script.Parent.Draggable = true	
+end;
+task.spawn(C_3);
+local function C_6()
+	local script = LMG2L["LocalScript_6"];
 	function click()	
 	    s = Instance.new("Sky")	
 	    s.Name = "Sky"	
@@ -104,18 +120,18 @@ local function C_5()
 	 	
 	script.Parent.MouseButton1Down:connect(click)	
 end;
-task.spawn(C_5);
-local function C_7()
-	local script = LMG2L["LocalScript_7"];
+task.spawn(C_6);
+local function C_8()
+	local script = LMG2L["LocalScript_8"];
 	function onClick()	
 	    Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://1847661821" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()	
 	end	
 	 	
 	script.Parent.MouseButton1Down:connect(onClick)	
 end;
-task.spawn(C_7);
-local function C_9()
-	local script = LMG2L["LocalScript_9"];
+task.spawn(C_8);
+local function C_a()
+	local script = LMG2L["LocalScript_a"];
 	script.Parent.MouseButton1Click:Connect(function()	
 	    for i, v in pairs(game.Players:GetChildren()) do	
 	        emit = Instance.new("ParticleEmitter")	
@@ -125,9 +141,9 @@ local function C_9()
 	    end	
 	end)	
 end;
-task.spawn(C_9);
-local function C_c()
-	local script = LMG2L["LocalScript_c"];
+task.spawn(C_a);
+local function C_d()
+	local script = LMG2L["LocalScript_d"];
 	function click()	
 	    function exPro(root)	
 	        for _, v in pairs(root:GetChildren()) do	
@@ -169,11 +185,50 @@ local function C_c()
 	
 	script.Parent.MouseButton1Down:connect(click)	
 end;
-task.spawn(C_c);
-
--- drag gui
-LMG2L["ScrollingFrame_2"].Archivable = true
-LMG2L["ScrollingFrame_2"].Active = true
-LMG2L["ScrollingFrame_2"].Draggable = true
+task.spawn(C_d);
+local function C_e()
+	local script = LMG2L["drag gui 2_e"];
+	local UserInputService = game:GetService("UserInputService")	
+	 	
+	local gui = script.Parent	
+	 	
+	local dragging	
+	local dragInput	
+	local dragStart	
+	local startPos	
+	 	
+	local function update(input)	
+	    local delta = input.Position - dragStart	
+	    gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed	
+	end	
+	 	
+	gui.InputBegan:Connect(function(input)	
+	    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then	
+	        dragging = true	
+	        dragStart = input.Position	
+	        startPos = gui.Position	
+	 	
+	        input.Changed:Connect(function()	
+	            if input.UserInputState == Enum.UserInputState.End then	
+	                dragging = false	
+	            end	
+	        end)	
+	    end	
+	end)	
+	 	
+	gui.InputChanged:Connect(function(input)	
+	    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then	
+	        dragInput = input	
+	    end	
+	end)	
+	 	
+	UserInputService.InputChanged:Connect(function(input)	
+	    if input == dragInput and dragging then	
+	        update(input)	
+	    end	
+	end)	
+	
+end;
+task.spawn(C_e);
 
 return LMG2L["ScreenGui_1"], require;
